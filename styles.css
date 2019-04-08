@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.tabs {
+    border-bottom: solid 1px #21A179;
+}
+
+.tabs a {
+    color: #21A179 !important;
+    border: solid 1px #21A179;
+}
+
+.intro {
+    padding: 5%;
+}
+
+.columns{
+    padding-top: 1px;
+}
+
+.column {
+    border: solid 1px #21A179;
+    padding: 2.5%;
+    margin: 4.8px;
+}
+
+input, textarea {
+    font-size: 1.2em;
+    width: 100%;
+    border: solid 1px #21A179;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 8px;
+    background: #21A179;
+    color: #fff;
+    border: none;
+}
