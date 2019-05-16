@@ -5,6 +5,7 @@ body {
 h1 {
     font-size: 2.6rem;
     line-height: 3.2rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -16,16 +17,32 @@ h3 {
 }
 
 .tabs {
-    border-bottom: solid 1px #21A179;
+    border-bottom: solid #fff 1px;
 }
 
 .tabs a {
-    color: #21A179 !important;
-    border: solid 1px #21A179;
+    font-weight: 700;
+    color: #fff !important;
 }
 
 .intro {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hero {
+    background: #670DDB;
     padding: 5%;
+}
+
+.level {
+    padding: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#logoImg {
+    height: 24vh;
 }
 
 .columns{
@@ -33,21 +50,38 @@ h3 {
 }
 
 .column {
-    border: solid 1px #21A179;
-    padding: 2.5%;
     margin: 4.8px;
+}
+
+#publications {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #670DDB;
+}
+
+.publications {
+    padding: 2%;
+}
+
+.publications h1 {
+    color: #670DDB
+}
+
+.button {
+    background: #670DDB;
+    color: #fff;
 }
 
 input, textarea {
     font-size: 1.2em;
     width: 100%;
-    border: solid 1px #21A179;
+    border: solid 1px #aeaeae;
 }
 
 button {
     font-size: 1.2em;
     padding: 8px;
-    background: #21A179;
+    background: #670DDB;
     color: #fff;
     border: none;
 }
